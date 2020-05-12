@@ -1,0 +1,631 @@
+html {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+	background: url("images/justfriends_background.jpg");
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+}
+
+#bodyContainer {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contentContainer {
+	width: 50%;
+	height: 80%;
+	min-width: 700px;
+	background: #FBFBFB;
+	box-shadow: 5px 10px 10px #B8B7B7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*HEADER ELEMENTS ***********************************************HEADER ELEMENTS*/
+#headerContainer {
+	height: 10%;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Noto Sans JP', sans-serif;
+	align-items: center;
+}
+
+#logo {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#navLinks a, #logo a {
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#navLinks nav {
+	display: flex;
+	/* 	justify-content: center; */
+	align-items: center;
+}
+
+#makeFriendsButton {
+	background: #DEDDE9;
+	border-radius: 40px;
+	height: 60%;
+	box-shadow: 2px 3px 5px #B8B7B7;
+}
+
+#navLinks a:hover, .dropdown:hover {
+	color: #B8B7B7;
+}
+
+/*NAV BAR ELEMENTS ***********************************************NAV BAR ELEMENTS*/
+/* The dropdown container */
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+#profileLink {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#profileIcon img {
+	width: 16px;
+	position: relative;
+	left: 8px;
+	top: 2px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*FOOTER ELEMENTS ***********************************************FOOTER ELEMENTS*/
+footer {
+	width: 100%;
+	height: 20%;
+	background: #DEDDE9;
+	display: flex;
+	justify-content: center;
+}
+
+#footerContainer {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#footerLinks, #footerLinks a {
+	color: #909090;
+	text-decoration: none;
+}
+
+#footerLogo h6, #footerLogo a {
+	color: #000000;
+	opacity: 60%;
+	text-decoration: none;
+}
+
+/*PUBLIC HOME (INDEX) ELEMENTS ***********************************************PUBLIC HOME (INDEX) ELEMENTS*/
+#publicIndexContainer {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#publicTextContainer {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#publicIndexTitle, #publicIndexDesc, #publicGetStarted {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#publicIndexTitle {
+	height: 30%;
+	width: 80%;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 90%;
+}
+
+#publicIndexDesc {
+	height: 40%;
+	width: 80%;
+}
+
+#publicGetStarted {
+	height: 30%;
+	width: 80%;
+}
+
+#getStartedButton a {
+	background: #FFD46C;
+	border-radius: 40px;
+	height: 30%;
+	box-shadow: 2px 3px 5px #B8B7B7;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+}
+
+#publicIndexImage {
+	height: 100%;
+	width: 60%;
+}
+
+#publicIndexImage img {
+	height: 100%;
+	width: 100%;
+}
+
+
+/*ERROR PAGE ELEMENTS ***********************************************ERROR PAGE ELEMENTS*/
+#errorContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+#errorContainer img {
+	height: 100%;
+}
+
+/*SAFETY PAGE ELEMENTS ***********************************************SAFETY PAGE ELEMENTS*/
+#safetyContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#safetyImage {
+	with: 100%;
+	height: 100%;
+}
+
+#safetyText {
+	with: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*LOGIN PAGE ELEMENTS ***********************************************LOGIN PAGE ELEMENTS*/
+#loginContainer {
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+#loginImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#loginPhone {
+	position: absolute;
+	left: 47%;
+	top: 7%;
+	-webkit-transform: translate(-53%, 0);
+	width: 25%;
+	/* 	height: 50vh;
+ */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#loginContainer img {
+	position: absolute;
+	/* min-height: 500px;
+ */
+	height: 100%;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+}
+
+.loginButtons {
+	width: 60%;
+	/* 	padding: 3px;
+ */
+	background: #DEDDE9;
+	display: flex;
+	justify-content: center;
+	border-radius: 40px;
+	height: 20%;
+	box-shadow: 2px 3px 5px #B8B7B7;
+	cursor: pointer;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#form {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+.formText {
+	font-size: 8px;
+}
+
+#form a {
+	color: black;
+	text-decoration: none;
+}
+
+/* #loginErr {
+	color: red;
+	font-size: 8px;
+	
+} */
+#loginErr {
+	position: absolute;
+	top: 40%;
+	color: red;
+	font-size: 8px;
+}
+
+/*SIGN UP PAGE ELEMENTS ***********************************************SIGN UP PAGE ELEMENTS*/
+
+#signUpForm span {
+	color: red;
+	position: absolute;
+}
+
+
+/*CHAT ELEMENTS ***********************************************CHAT ELEMENTS*/
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+	padding: 16px 20px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20%;
+	right: 28px;
+	width: 100px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 20%;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+
+/* Full-width textarea */
+#textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	min-height: 200px;
+	max-height: 200px; max-width : 270px;
+	font-size: 10px;
+	overflow-y: scroll;
+	max-width: 270px;
+}
+
+#
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+/* 
+.form-container #closeBtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: solid;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+} */
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+
+/*FAQ PAGE ELEMENTS ***********************************************FAQ PAGE ELEMENTS*/
+#faqContainer {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#faqImage {
+	width: 100%;
+	height: 50%;
+	bottom: 0px;
+	position: absolute;
+	z-index: 0;
+}
+
+#faqImage img {
+	height: 100%;
+}
+
+#faqTextContainer {
+	width: 80%;
+	height: 100%;
+	z-index: 1;
+	padding-top: 5%;
+}
+
+#faqText {
+	display: inline-block;
+	top: 0;
+	left: 0;
+}
+
+.accordion {
+	background-color: #FBFBFB;
+	border-width: 0px 0px 1px 0px;
+	color: #444;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+
+.accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+/*HOW IT WORKS PAGE ELEMENTS ***********************************************HOW IT WORKS PAGE ELEMENTS*/
+#howItContainer {
+	height: 100%;
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.howItCard {
+	height: 80%;
+	width: 80%;
+	margin: 0 5px 0 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	border: solid 1px #B8B7B7;
+	border-radius: 10px;
+	box-shadow: 3px 5px 5px #B8B7B7;
+}
+
+.howItCard h3 {
+	margin: 5px;
+}
+
+.howItCard img {
+	width: 80%;
+}
+
+.howItText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	font-size: 10px;
+}
+
+.howItButton {
+	background: #f1f1f1;
+	border-radius: 40px;
+	width: 40%;
+	height: 8%;
+	box-shadow: 2px 3px 5px #B8B7B7;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#howItBtn3 {
+	background: #FFD46C;
+	width: 60%;
+}
+
+/*PRIVATE DASHBOARD/HOME PAGE ELEMENTS ***********************************************HOW IT WORKS PAGE ELEMENTS*/
+
+#dashboardContainer {
+	height: 90%;
+	weight: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#dashColumn {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 80%;
+}
+
+#dashName {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.dashColItem {
+	padding: 15px 0 15px 0;
+}
+
+#dashRows {
+	height:100%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#dashFriends {
+	height: 30%;
+	max-height: 15%;
+	width: calc(100% - 60px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px #CCC;
+	padding: 20px;
+}
+
+.dashFriend {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashFriend a {
+	text-decoration: none;
+	color: black;
+}
+
+.dashFriend img {
+	width: 50%;
+	height: 80%;
+	
+
+}
+
+#dashRowTwo {
+	height: 70%;
+	width: calc(100% - 40px);
+	display: flex;
+	justify-content: center;
+	align-items: start-end;
+	margin: 20px;
+}
+
+#dashChat{
+	width: 40%;
+}
+
+#dashCal {
+	height: 100%;
+	width: 70%;
+}
+
+#calendar {
+	width: 100%;
+}

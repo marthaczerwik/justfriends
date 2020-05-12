@@ -1,0 +1,70 @@
+! version = 2.0
+
+// Substitutions
+! sub i'm     = i am
+! sub im     = i am
+! sub i'd     = i would
+! sub id     = i would
+! sub i've    = i have
+! sub ive    = i have
+! sub i'll    = i will
+! sub ill    = i will
+! sub don't   = do not
+! sub dont   = do not
+! sub isn't   = is not
+! sub isnt   = is not
+! sub you'd   = you would
+! sub youd   = you would
+! sub you're  = you are
+! sub youre  = you are
+! sub you've  = you have
+! sub youve  = you have
+! sub you'll  = you will
+! sub youll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub whatre = what are
+! sub what've = what have
+! sub whatve = what have
+! sub what'v = what have
+! sub whatv = what have
+! sub what'll = what will
+! sub whatll = what will
+! sub what'l = what will
+! sub whatl = what will
+! sub who's   = who is
+! sub whos   = who is
+! sub login = log in
+! sub cant = can't
+! sub cannot = can't
+
++ *
+- I'm not sure how to reply to that. Try asking your question a different way.
+
++ hi
+- Hi! How can I help?
+
+
++ how are you
+- Good, thank you. What can I assist you with today?
+
++ * cant log in *
+- If you have already made an account, you can reset your password <a href="PasswordReset.jsp">here</a>. Your username and new temporary password will be sent to your email if the account is associated with the email. If you are new to the site, please create an account <a href="SignUp.jsp.jsp">here</a>. 
+
++ im not getting any matches
+- Try expanding your interests!
+
++ * isnt loading
+- Please clear your cache and retry. Did it work?
+
++ (yes|yeah) *
+- Great news! Is there anything else I can help you with?
+
++ *(safe|safety|policy|policies)*
+- Please visit our <a href="FAQ.jsp">FAQ page</a> to read up on our safety guidelines and other policies.
+
++ do i have to pay
+- No, our services are entirely free to use by anyone!
+
+
