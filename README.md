@@ -2,6 +2,8 @@
 
 A web application using Java and JavaScript allowing users to meet new friends based on criteria provided.
 
+[Wireframes](https://docs.google.com/document/d/1t_8mv_S5_ZJTxqe92K-kDdLEIDS6l6u1I2PESEbcgGc/edit?usp=sharing) of some pages.
+
 [MySQL](https://github.com/marthaczerwik/justfriendsSQL) used to store user data and jdbc to query. RiveScript used to create simple chatbot.
 
 Test accounts made via [python scrape](https://github.com/marthaczerwik/jsfrScrape). Additional root users for testing: username: root /pw:1234, username: root2/pw:4321
