@@ -19,7 +19,7 @@ import java.sql.SQLException;
 public class DAO {
 	private String dbURL= "jdbc:mysql://localhost:3306/jsfr";  
 	private String user = "root";
-	private String password = "m_ART_ysheridan"; //private pw
+	private String password = ""; //private pw
 	
 //set up database driver
 	public Connection getConnection() throws SQLException {
