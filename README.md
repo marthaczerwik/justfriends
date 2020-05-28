@@ -6,7 +6,7 @@ A web application using Java and JavaScript allowing users to meet new friends b
 
 [MySQL](https://github.com/marthaczerwik/justfriendsSQL) used to store user data and jdbc to query. RiveScript used to create simple chatbot.
 
-Test accounts made via [python scrape](https://github.com/marthaczerwik/jsfrScrape). Additional root users for testing: username: root /pw:1234, username: root2/pw:4321
+Test accounts made via [python scrape](https://github.com/marthaczerwik/jsfrScrape). Moving this to java code, to be located [here](https://github.com/marthaczerwik/jsfrScrape_java). Additional root users for testing: username: root /pw:1234, username: root2/pw:4321
 
 Interface updates accordingly if session is created upon login.
 
@@ -25,3 +25,5 @@ This is a new project, so currently incomplete! The following are some general u
 - [ ] animate howitworks
 - [x] fix js file
 - [ ] MakeFriends - create pages 
+
+Working on [automated script](https://github.com/marthaczerwik/JSFRAutomationTest.git) for regression testing.
