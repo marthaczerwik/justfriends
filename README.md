@@ -23,5 +23,5 @@ This is a new project, so currently incomplete! The following are some general u
 - [ ] create account settings page
 - [ ] create edit profile page
 - [ ] animate howitworks
-- [ ] fix js file
+- [x] fix js file
 - [ ] MakeFriends - create pages 
